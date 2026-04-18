@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "repattern"
-version = "1.0.0"
+version = "1.0.1"
 description = "Unique deterministic procedural image and identicon generator, with all sorts of modifiers"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = { file = "LICENSE" }
@@ -31,3 +31,14 @@ keywords = ["identicon", "procedural", "image", "generator", "avatar"]
 [project.urls]
 Homepage = "https://github.com/remohexa/repattern"
 Repository = "https://github.com/remohexa/repattern"
+
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/repattern",
+    "/README.md",
+    "/LICENSE",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["repattern"]
