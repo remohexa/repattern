@@ -5,21 +5,21 @@
 
 ## Quick preview:
 
-- [Quick start](#quick-start)
-- [Usage](#usage)
-  - [Importing](#importing)
-  - [Generate](#generate)
-  - [Saving](#saving)
-  - [Getting a buffer](#getting-a-buffer-for-web-use-apis-etc)
-  - [Identicon](#identicon)
-  - [Delusional Background](#delusional-background-1)
-  - [Psychedelic Background](#psychedelic-background-1)
-  - [Combined](#combined)
-  - [Effects](#effects)
-    - [Early Internet](#early-internet)
-    - [Cybercore](#cybercore)
-    - [Pixelated](#pixelated)
-- [More examples](#more-examples)
+- [**Quick start**](#quick-start)
+- [**Usage**](#usage)
+  - [**Importing**](#importing)
+  - [**Generate**](#generate)
+  - [**Saving**](#saving)
+  - [**Getting a buffer**](#getting-a-buffer-for-web-use-apis-etc)
+  - [**Identicon**](#identicon)
+  - [**Delusional Background**](#delusional-background-1)
+  - [**Psychedelic Background**](#psychedelic-background-1)
+  - [**Combined**](#combined)
+  - [**Effects**](#effects)
+    - [**Early Internet**](#early-internet)
+    - [**Cybercore**](#cybercore)
+    - [**Pixelated**](#pixelated)
+- [**More examples**](#more-examples)
 
 ### Identicons:
 
