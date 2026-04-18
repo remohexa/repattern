@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "repattern"
+version = "1.0.0"
+description = "Unique deterministic procedural image and identicon generator, with all sorts of modifiers"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { file = "LICENSE" }
+authors = [
+    { name = "remohexa" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow>=11.1.0",
+    "numpy>=2.2.4",
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Software Development :: Libraries",
+    "Operating System :: OS Independent",
+]
+keywords = ["identicon", "procedural", "image", "generator", "avatar"]
+
+[project.urls]
+Homepage = "https://github.com/remohexa/repattern"
+Repository = "https://github.com/remohexa/repattern"
