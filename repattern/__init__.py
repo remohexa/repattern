@@ -1459,32 +1459,3 @@ class Generate:
         }
 
 
-back_seed = "Repattern-1.0-psych"
-iden_seed = "Repattern-1.0"
-Generate(
-    width=512,
-    height=512,
-    type="combined",
-    combined_options=Combined_Options(
-        use_psychedelic_background=True,
-        icon_seed=iden_seed,
-        back_seed=back_seed,
-        identicon_basecolor=(150, 0, 255),
- 
-       
-        background_early_internet_effect=True,
-        background_cybercore_effect=True,
-        background_pixelated_effect=True,
-        background_pixelated_strength=0.2
-    ),
-).save(
-    "repostuff/images/specific/combined/psychedelic/Repattern-1.0-combined-alpha"
-)
-
-Delusional_Background_Options(
-    early_internet_effect=True,
-    cybercore_effect=True,
-    pixelated_effect=True,
-    pixelated_strength=0.2
-)
-Psychedelic_Background_Options(force_complex=True)
